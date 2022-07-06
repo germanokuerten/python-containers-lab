@@ -93,7 +93,7 @@ cohort = []
 
 # Using a for loop, add one dictionary to the cohort list for each student name. Each dictionary should have this shape: 
 
-# I am not sure what is being asked here, so I will just assume something.
+# I am not sure what is being asked here, so I will just assume the following.
 
 
 for student, food in zip(students, foods):
