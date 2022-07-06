@@ -8,7 +8,6 @@
 
 from re import A
 
-
 students = [
     'Germano Kuerten',
     'Alejandro Rojas',
@@ -24,6 +23,7 @@ print(students[1])
 # Print out the last student's name.
 
 print(students[-1])
+
 
 ################################
 
@@ -44,6 +44,7 @@ foods = (
 for food in foods:
     print(f'{food} is a good food!')
 
+
 ################################
 
 ## Exercise 3
@@ -55,6 +56,7 @@ for food, var in enumerate(foods):
         print (var)
     if food == len(foods) - 1:
         print(var)
+
 
 ################################
 
@@ -72,6 +74,7 @@ home_town = {
 # "I was born in city, state - population of population"
 
 print(f'I was born in {home_town["city"]}, {home_town["state"]} - population of {home_town["population"]}')
+
 
 ################################
 
@@ -95,7 +98,6 @@ cohort = []
 
 # I am not sure what is being asked here, so I will just assume the following.
 
-
 for student, food in zip(students, foods):
     cohort.append({
         "student": student,
@@ -111,6 +113,7 @@ print(cohort)
 
 # Iterate over cohort printing out each element.
 
+
 ################################
 
 ## Exercise 7
@@ -122,6 +125,7 @@ awesome_students = [n + ' is awesome!' for n in students]
 print(awesome_students)
 
 # Iterate over awesome_studentsprinting out each string.
+
 
 ################################
 
